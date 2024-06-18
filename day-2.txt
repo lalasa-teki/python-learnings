@@ -1,0 +1,148 @@
+Day 2: Variables and Data Types
+Topics to Cover:
+Introduction to Variables
+Data Types in Python
+Type Conversion
+Basic Input and Output
+1. Introduction to Variables:
+A variable is a named location used to store data in memory. In Python, you don't need to declare the type of variable, as it is dynamically typed.
+
+Variable Assignment:
+
+python
+Copy code
+# Assigning values to variables
+x = 5
+y = "Hello"
+z = 3.14
+Variable Naming Rules:
+
+Variable names must start with a letter or an underscore.
+The rest of the name can contain letters, numbers, or underscores.
+Variable names are case-sensitive (name and Name are different variables).
+Example:
+
+python
+Copy code
+my_variable = 10
+_name = "John"
+age1 = 25
+2. Data Types in Python:
+Python has various data types, including:
+
+Numeric Types:
+
+int (integer): Whole numbers, e.g., 42
+float (floating point): Decimal numbers, e.g., 3.14
+complex (complex numbers): e.g., 1 + 2j
+Text Type:
+
+str (string): Sequence of characters, e.g., "Hello"
+Sequence Types:
+
+list: Ordered, mutable collection, e.g., [1, 2, 3]
+tuple: Ordered, immutable collection, e.g., (1, 2, 3)
+range: Represents a sequence of numbers, e.g., range(5)
+Mapping Type:
+
+dict (dictionary): Unordered collection of key-value pairs, e.g., {"name": "Alice", "age": 25}
+Set Types:
+
+set: Unordered collection of unique elements, e.g., {1, 2, 3}
+frozenset: Immutable version of a set
+Boolean Type:
+
+bool: Represents True or False
+None Type:
+
+NoneType: Represents the absence of a value, e.g., None
+Example:
+
+python
+Copy code
+x = 10          # int
+y = 3.14        # float
+z = "Python"    # str
+a = [1, 2, 3]   # list
+b = (4, 5, 6)   # tuple
+c = {"name": "Alice", "age": 25}  # dict
+d = {7, 8, 9}   # set
+e = True        # bool
+f = None        # NoneType
+3. Type Conversion:
+You can convert between data types using built-in functions.
+
+Common Type Conversion Functions:
+
+int(): Converts to integer
+float(): Converts to float
+str(): Converts to string
+list(): Converts to list
+tuple(): Converts to tuple
+set(): Converts to set
+Example:
+
+python
+Copy code
+x = 5
+y = 3.14
+z = "10"
+
+# Convert to int
+a = int(y)    # 3
+b = int(z)    # 10
+
+# Convert to float
+c = float(x)  # 5.0
+
+# Convert to string
+d = str(x)    # "5"
+
+# Convert to list
+e = list(z)   # ['1', '0']
+4. Basic Input and Output:
+Output:
+Use the print() function to display output.
+
+python
+Copy code
+print("Hello, World!")
+print("The value of x is", x)
+Input:
+Use the input() function to take user input. Note that input() returns a string.
+
+python
+Copy code
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("Hello, " + name + "! You are " + age + " years old.")
+To convert the input to an integer:
+
+python
+Copy code
+age = int(input("Enter your age: "))
+print("Next year, you will be", age + 1, "years old.")
+Day 2 Exercises:
+Variable Practice:
+
+Create variables of different data types and print their values.
+Type Conversion Practice:
+
+Convert between different data types and print the results.
+Example: Convert a string "123" to an integer, add 10 to it, and print the result.
+Basic Input/Output Practice:
+
+Write a script that asks for the user's name and age, and then prints a message with this information.
+Write a script that takes two numbers from the user, adds them, and prints the result.
+Additional Resources:
+Python Variables and Data Types - W3Schools
+Python Input and Output - Real Python
+Learn Python - Variables and Data Types - GeeksforGeeks
+By the end of Day 2, you should have a good understanding of variables, basic data types, type conversion, and how to handle input and output in Python.
+
+
+
+
+
+
+

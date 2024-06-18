@@ -1,0 +1,134 @@
+### Day 1: Introduction to Python
+
+#### **Topics to Cover:**
+1. **Python Overview**
+2. **Installing Python**
+3. **Basic Syntax**
+4. **Interactive Python Shell**
+5. **Writing and Running Your First Python Script**
+
+---
+
+#### **1. Python Overview:**
+Python is a high-level, interpreted programming language known for its readability and simplicity. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming.
+
+**Key Features:**
+- Easy to read and write
+- Extensive standard library
+- Cross-platform compatibility
+- Strong community support
+
+#### **2. Installing Python:**
+
+**Windows:**
+1. Download the Python installer from [python.org](https://www.python.org/downloads/).
+2. Run the installer and make sure to check "Add Python to PATH".
+3. Follow the installation steps.
+
+**macOS:**
+1. Python 2.x is pre-installed, but it's recommended to use Python 3.x.
+2. Download the installer from [python.org](https://www.python.org/downloads/).
+3. Run the installer.
+
+**Linux:**
+1. Open the terminal.
+2. Use the package manager to install Python. For example:
+   ```bash
+   sudo apt update
+   sudo apt install python3
+   ```
+
+**Verify the Installation:**
+Open a terminal or command prompt and type:
+```bash
+python --version
+# or
+python3 --version
+```
+
+#### **3. Basic Syntax:**
+
+Python syntax is clean and easy to read. Here's a simple example:
+
+```python
+# This is a comment
+print("Hello, World!")  # This prints a string to the console
+```
+
+**Indentation:**
+Python uses indentation to define blocks of code. Consistent indentation is crucial.
+
+```python
+if True:
+    print("This is indented correctly")
+```
+
+#### **4. Interactive Python Shell:**
+
+The interactive shell, also known as the REPL (Read-Eval-Print Loop), allows you to execute Python commands one at a time and see the results immediately.
+
+To start the Python interactive shell, open a terminal or command prompt and type:
+```bash
+python
+# or
+python3
+```
+
+You should see a prompt like this:
+```python
+>>>
+```
+
+Now you can type Python commands directly. For example:
+```python
+>>> print("Hello, World!")
+Hello, World!
+>>> 2 + 3
+5
+```
+
+#### **5. Writing and Running Your First Python Script:**
+
+**Step 1: Create a Python File**
+Open a text editor and write the following code:
+```python
+# hello.py
+print("Hello, World!")
+```
+
+**Step 2: Save the File**
+Save the file with a `.py` extension, e.g., `hello.py`.
+
+**Step 3: Run the Script**
+Open a terminal or command prompt and navigate to the directory where you saved your script. Then type:
+```bash
+python hello.py
+# or
+python3 hello.py
+```
+
+You should see the output:
+```plaintext
+Hello, World!
+```
+
+---
+
+### **Day 1 Exercises:**
+
+1. **Interactive Shell Practice:**
+   - Open the Python shell and practice basic commands like addition, subtraction, and string manipulation.
+
+2. **Script Writing:**
+   - Write a Python script that prints your name, age, and a favorite quote.
+
+3. **Exploring Errors:**
+   - Intentionally write some incorrect code to see what kinds of errors you get. For example, forget to close a string with a quote or misalign the indentation.
+
+#### **Additional Resources:**
+
+- [Python Documentation](https://docs.python.org/3/)
+- [Learn Python - Codecademy](https://www.codecademy.com/learn/learn-python-3)
+- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+
+By the end of Day 1, you should have a basic understanding of Python, how to write and run Python scripts, and how to use the interactive shell.  lalasa

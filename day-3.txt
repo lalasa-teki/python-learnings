@@ -1,0 +1,217 @@
+Day 3: Operators and Expressions
+Topics to Cover:
+Arithmetic Operators
+Comparison Operators
+Logical Operators
+Assignment Operators
+Bitwise Operators
+Identity and Membership Operators
+Expressions and Operator Precedence
+1. Arithmetic Operators:
+These operators are used to perform mathematical operations.
+
+Operator	Description	Example
++	Addition	x + y
+-	Subtraction	x - y
+*	Multiplication	x * y
+/	Division	x / y
+%	Modulus	x % y
+**	Exponentiation	x ** y
+//	Floor Division	x // y
+Examples:
+
+python
+Copy code
+a = 10
+b = 3
+
+print(a + b)  # 13
+print(a - b)  # 7
+print(a * b)  # 30
+print(a / b)  # 3.3333333333333335
+print(a % b)  # 1
+print(a ** b) # 1000
+print(a // b) # 3
+2. Comparison Operators:
+These operators are used to compare two values.
+
+Operator	Description	Example
+==	Equal to	x == y
+!=	Not equal to	x != y
+>	Greater than	x > y
+<	Less than	x < y
+>=	Greater than or equal to	x >= y
+<=	Less than or equal to	x <= y
+Examples:
+
+python
+Copy code
+x = 5
+y = 8
+
+print(x == y)  # False
+print(x != y)  # True
+print(x > y)   # False
+print(x < y)   # True
+print(x >= y)  # False
+print(x <= y)  # True
+3. Logical Operators:
+These operators are used to combine conditional statements.
+
+Operator	Description	Example
+and	Logical AND	x and y
+or	Logical OR	x or y
+not	Logical NOT	not x
+Examples:
+
+python
+Copy code
+x = True
+y = False
+
+print(x and y)  # False
+print(x or y)   # True
+print(not x)    # False
+4. Assignment Operators:
+These operators are used to assign values to variables.
+
+Operator	Description	Example
+=	Assignment	x = 5
++=	Add and assign	x += 3
+-=	Subtract and assign	x -= 3
+*=	Multiply and assign	x *= 3
+/=	Divide and assign	x /= 3
+%=	Modulus and assign	x %= 3
+**=	Exponent and assign	x **= 3
+//=	Floor divide and assign	x //= 3
+Examples:
+
+python
+Copy code
+x = 5
+x += 3  # x = x + 3
+print(x)  # 8
+
+x -= 2  # x = x - 2
+print(x)  # 6
+
+x *= 2  # x = x * 2
+print(x)  # 12
+
+x /= 3  # x = x / 3
+print(x)  # 4.0
+
+x %= 2  # x = x % 2
+print(x)  # 0.0
+
+x = 2
+x **= 3  # x = x ** 3
+print(x)  # 8
+
+x //= 3  # x = x // 3
+print(x)  # 2
+5. Bitwise Operators:
+These operators are used to perform bit-level operations.
+
+Operator	Description	Example
+&	Bitwise AND	x & y
+`	`	Bitwise OR
+^	Bitwise XOR	x ^ y
+~	Bitwise NOT	~x
+<<	Bitwise left shift	x << 2
+>>	Bitwise right shift	x >> 2
+Examples:
+
+python
+Copy code
+x = 10  # 1010 in binary
+y = 4   # 0100 in binary
+
+print(x & y)  # 0 (0000)
+print(x | y)  # 14 (1110)
+print(x ^ y)  # 14 (1110)
+print(~x)     # -11 (inverts bits)
+print(x << 2) # 40 (101000)
+print(x >> 2) # 2 (10)
+6. Identity and Membership Operators:
+Identity Operators:
+These operators compare the memory locations of two objects.
+
+Operator	Description	Example
+is	Identity	x is y
+is not	Not Identity	x is not y
+Examples:
+
+python
+Copy code
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+
+print(x is z)      # True
+print(x is y)      # False
+print(x == y)      # True
+print(x is not y)  # True
+Membership Operators:
+These operators test if a sequence contains a specified element.
+
+Operator	Description	Example
+in	Membership	x in y
+not in	Not Membership	x not in y
+Examples:
+
+python
+Copy code
+x = ["apple", "banana"]
+
+print("banana" in x)      # True
+print("cherry" not in x)  # True
+7. Expressions and Operator Precedence:
+An expression is a combination of variables, operators, and values that yields a result value. Operator precedence determines the order in which operations are performed.
+
+Operator Precedence Table:
+
+** (Exponentiation)
++x, -x, ~x (Unary plus, Unary minus, Bitwise NOT)
+*, /, //, % (Multiplication, Division, Floor division, Modulus)
++, - (Addition, Subtraction)
+<<, >> (Bitwise shift)
+& (Bitwise AND)
+^ (Bitwise XOR)
+| (Bitwise OR)
+==, !=, >, <, >=, <=, is, is not, in, not in (Comparisons, Identity, Membership)
+not (Logical NOT)
+and (Logical AND)
+or (Logical OR)
+Examples:
+
+python
+Copy code
+# Expression with multiple operators
+result = 3 + 5 * 2
+print(result)  # 13 (5*2 is evaluated first)
+
+# Using parentheses to change order
+result = (3 + 5) * 2
+print(result)  # 16
+Day 3 Exercises:
+Arithmetic and Assignment Practice:
+
+Write a script that performs various arithmetic operations on two numbers and prints the results.
+Use assignment operators to modify a variable and print the intermediate results.
+Comparison and Logical Practice:
+
+Write a script that compares two numbers and prints the results of various comparison and logical operations.
+Bitwise Operators Practice:
+
+Experiment with bitwise operators on two numbers and print the results.
+Identity and Membership Practice:
+
+Create lists and test for identity and membership using the is, is not, in, and not in operators.
+Operator Precedence Practice:
+
+Write complex expressions and predict the result before running the script. Verify by printing the results.
+Additional Resources:
+Python Operators - W3Schools
+Python Operators - Real Python
+[Python Operator Precedence - Ge
